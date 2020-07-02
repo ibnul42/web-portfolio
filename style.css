@@ -8,7 +8,7 @@ h1 {
     font-size: 30px;
 }
 
-.name-highlight {
+.orange-highlight {
     color: orange;
 }
 
@@ -29,7 +29,6 @@ h1 {
 section{
     height: 550px;
     background-repeat: no-repeat;
-    border: 2px solid pink;
     margin-bottom: 100px;
 }
 
@@ -49,4 +48,31 @@ section{
 
 p {
     color: dimgray;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+}
+
+.experi {
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+}
+
+#full-stack {
+    border-left: 5px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
